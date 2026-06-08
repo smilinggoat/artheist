@@ -1,0 +1,154 @@
+/* Global Styles */
+
+
+a:link, a:visited, a:active{
+	color: #D6D6D6;
+}
+
+a:hover{
+	color:#FFC9ED;
+}
+
+body, table {
+	color: #000000;
+	background-image: url("images/richter.jpg");
+	background-color: #323438;
+	background-repeat: no-repeat;
+	font-family: "Gill Sans", sans;
+	font-size: 16px;
+}
+
+h1{
+   font-size: 20px;
+   font-family: "Helvetica", sans;
+}
+
+h2{
+   font-size: 20px;
+   font-family: "Helvetica", sans;
+   text-shadow: 1px 1px 5px #FFC9ED;
+}
+
+img, img.portrait {
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+
+div.centerfront {
+    width:100%;
+	margin-top: 3em;
+	text-align: center;
+	overflow: hidden;
+}
+
+.logo{
+	margin: 3em 0 12em 0;
+}
+
+ .headshot, .email{
+	margin: 2em;
+	font-size: 18px;
+}
+
+.soundcloud, .facebook, .twitter{
+	margin: 0 0.5em;
+	display: inline;
+}
+
+.portrait{
+	width: 400px;
+	height: 400px;
+	filter: gray; /* IE6-9 */
+	-webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
+}
+
+.portrait:hover {
+  filter: none;
+  -webkit-filter: grayscale(0%);
+}
+
+.downloads{
+	width: 320px;
+	text-align: left;
+	margin: auto;
+}
+
+.socials{
+	padding-top: 2em;
+	margin-top: 2em;
+}
+
+.soundcloud-logo{
+	display: inline-block;
+	width: 144px;
+	height: 63px;
+	background: url('images/soundcloud-288.png') left;
+}
+
+.soundcloud-logo:hover {
+	background-position: -144px 0;
+}
+
+.facebook-logo{
+	display: inline-block;
+	width: 58px;
+	height: 58px;
+	background: url('images/facebook-116.png') left;
+}
+
+.facebook-logo:hover {
+	background-position: -58px 0;
+}
+
+.twitter-logo{
+	display: inline-block;
+	width: 72px;
+	height: 58px;
+	background: url('images/twitter-144.png') left;
+}
+
+.twitter-logo:hover {
+	background-position: -72px 0;
+}
+
+.cashmusicform {
+	width: 600px;
+	margin: 3em auto;
+}
+
+/* CASH OVERRIDE */
+
+/* Button */
+
+.dark #mainspc .cashmusic element emailcollection id-8747 .button{
+	padding:9px 10px;
+	width:100%;
+	text-align: center;
+	margin:2px auto 0 auto;
+	background:none;
+	border:solid 2px #FFF !important;
+	font-size: 12px;
+	color:#FFF !important;
+	display:inline-block;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	text-transform: capitalize;
+	-webkit-appearance:none;
+	vertical-align: top;
+}
+
+input[type=submit]:disabled, .button:disabled{
+	pointer-events:none;
+	opacity: 0.5;
+}
+
+input[type=submit]:hover, .button:hover{
+	background:#FFF !important;
+	color:rgba(0,0,0,0.3);
+	cursor: pointer;
+	outline: none;
+}
+
